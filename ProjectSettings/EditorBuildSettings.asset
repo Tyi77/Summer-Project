@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/To Dawn/Scene/Opening.unity
+    guid: 9cf1d87d9c5815f4e859b4407bde6982
+  - enabled: 1
+    path: Assets/To Dawn/Scene/To Dawn.unity
+    guid: ccc08778d286e784a90ab115a0930310
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 04062fc6d7302e54b83140c89a3e1771, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: d7ad7172dd0f32143873fc6bb457d562, type: 2}
