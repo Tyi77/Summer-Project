@@ -37,6 +37,7 @@ public class SupplyArea : MonoBehaviour
         if(supplyNum < maxNum){
             GameObject supplyClone = Instantiate(supply.gameObject, new Vector3(Random.Range(minX, maxX), 1, Random.Range(minZ, maxZ)), Quaternion.Euler(Random.Range(0.0f, 180.0f), Random.Range(0.0f, 180.0f), Random.Range(0.0f, 180.0f)));
             supplyClone.GetComponent<Supply>().destroyEvent += subSupply;
+            supplyClone.transform.parent = transform;
             supplyNum++;
         }
     }

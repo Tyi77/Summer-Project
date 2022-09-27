@@ -15,9 +15,9 @@ public class Health : MonoBehaviour
         healthText.text = "3";
     }
 
-    private void OnEnable() {
-        reborn.rebornEvent += Restart;
-    }
+    // private void OnEnable() {
+    //     reborn.rebornEvent += Restart;
+    // }
 
     private void Restart(){
         health = 3;

@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/To Dawn/Scene/To Dawn.unity
     guid: ccc08778d286e784a90ab115a0930310
   m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: ca16fd82e2484ef4daf37285a1a61b28, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 04062fc6d7302e54b83140c89a3e1771, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ebbb53adc5e1bb64f8ff460356d6e7e0, type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: d7ad7172dd0f32143873fc6bb457d562, type: 2}

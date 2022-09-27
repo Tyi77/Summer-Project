@@ -16,9 +16,9 @@ public class Score : MonoBehaviour
         reborn = GameObject.FindWithTag("Player").GetComponent<Reborn>();
     }
 
-    private void OnEnable() {
-        reborn.rebornEvent += Restart;
-    }
+    // private void OnEnable() {
+    //     reborn.rebornEvent += Restart;
+    // }
 
     private void Restart(){
         score = 0;
